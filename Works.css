@@ -1,0 +1,566 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: rgb(60, 2, 103);
+}
+
+body .BarraPrincipal {
+    background-color: mediumpurple;
+    display: grid;
+    font-family: 'Merriweather Sans', sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+}
+
+body .BarraPrincipal .BarraItems {
+    align-items: center;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    justify-content: center;
+    color: black;
+    width: 100%;
+}
+
+body .BarraItems .Page1 a {
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    justify-content: center;
+    padding-inline: 20px;
+    text-decoration: none;
+}
+
+body .BarraItems .Page1 a > span {
+    color: #ffffff;
+    border: 1.5px solid transparent;
+    width: 85%;
+}
+
+body .BarraItems .Page1 a:hover {
+    align-items: start;
+    color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+body .BarraItems .material-symbols-outlined {
+    display: none;
+}
+
+body .App {
+    align-items: start;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px;
+    padding-top: 24px;
+}
+
+body .App .MayaCard {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 140px;
+    height: 775px;
+    justify-content: center;
+    width: 1880px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .Titulo-Card1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0px;
+}
+
+body .App .MayaCard .Imegas1 {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 520px;
+    row-gap: 60px;
+    column-gap: 75px;
+    padding-bottom: 24px;
+}
+
+body .App .Card2 .Imegas1 div {
+    align-content: center;
+    justify-content: center;
+}
+
+body .App .MayaCard .Imegas1 .Imega-Card2 {
+    display: none;
+}
+
+body .Bar2 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 0px;
+}
+
+body .Bar2 > span {
+    border: 1.5px solid white;
+    width: 95%;
+}
+
+body .Blender {
+    align-items: start;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+body .Blender .BlenderCard {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 140px;
+    height: 862.5px;
+    justify-content: center;
+    width: 1880px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .Blender .BlenderCard .Imegas2 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 260px 260px;
+    row-gap: 60px;
+    column-gap: 25px;
+    padding-bottom: 24px;
+}
+
+body .Blender .BlenderCard .Imegas2 div {
+    align-content: center;
+    justify-content: center;
+}
+
+body .Blender .BlenderCard .Imegas2 .Imega-Card4 {
+    display: none;
+}
+
+body .Blender .BlenderCard .Imegas2 .Imega-Card5 {
+    display: none;
+}
+
+body .Illustrator {
+    align-items: start;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+body .Illustrator .PostersCard {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 140px;
+    height: 700px;
+    justify-content: center;
+    width: 1880px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .Illustrator .PostersCard .Imegas3 {
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px 275px;
+    grid-template-rows: 500px;
+    row-gap: 60px;
+    column-gap: 48px;
+    padding-bottom: 24px;
+}
+
+body .Illustrator .PostersCard .Imegas3 div {
+    align-content: center;
+    justify-content: center;
+}
+
+body .Illustrator .PostersCard .Imegas3 .Imega-Card7 {
+    display: none;
+}
+
+body .Bar2 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 0px;
+}
+
+body .Bar2 > span {
+    border: 1.5px solid white;
+    width: 95%;
+}
+
+body .Footer {
+    background: rebeccapurple;
+    color: #ffffff;
+    display: flex;
+    height: 240px;
+    padding: 20px 200px;
+}
+
+body .Footer .Contenido {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Footer .Contenido > p {
+    text-align: center;
+    font-size: large;
+    padding: 24px 0px;
+    width: 100%;
+}
+
+body .Footer .Contenido .Button {
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+body .Footer .Contenido .Button > h6 {
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0px;
+    padding: 12px 0px;
+}
+
+body .Footer .Contenido .Button > p {
+    background-color: white;
+    border-radius: 30px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > p:hover {
+    background-color: black;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > span {
+    padding-left: 240px;
+}
+
+body .Center {
+    background: rebeccapurple;
+    display: flex;
+}
+
+body .Center .Redes {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Center .Redes > span {
+    padding: 0px 20px;
+    padding-bottom: 48px;
+}
+
+body .Center .Redes img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1366px) {
+    body .App .MayaCard {
+        width: 1280px;
+        height: 650px;
+    }
+
+    body .Titulo-Card1 {
+        font-size: 32px;
+    }
+
+    body .App .MayaCard .Imegas1 {
+        align-items: center;
+        grid-template-columns: 220px 220px 220px 220px 220px;
+        grid-template-rows: 420px;
+        column-gap: 25px;
+        padding-bottom: 12px;
+    }
+
+    body .App .MayaCard .Imegas1 .Imega-Card2 {
+        display: unset;
+    }
+
+    body .App .MayaCard .Imegas1 .Imega-Card1 {
+        display: none;
+    }
+
+    body .Blender .BlenderCard {
+        column-gap: 0px;
+        height: 980px;
+        width: 1280px;
+    }
+    
+    body .Blender .BlenderCard .Imegas2 {
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 234px 234px 234px;
+        row-gap: 40px;
+        column-gap: 60px;
+        padding-bottom: 0px;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card4 {
+        display: unset;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card5 {
+        display: none;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card3 {
+        display: none;
+    }
+    
+    body .Illustrator .PostersCard {
+        height: 560px;
+        width: 1280px;
+    }
+    
+    body .Illustrator .PostersCard .Imegas3 {
+        grid-template-columns: 220px 220px 220px 220px 220px;
+        grid-template-rows: 360px;
+        row-gap: 30px;
+        column-gap: 24px;
+    }
+
+    body .Illustrator .PostersCard .Imegas3 .Imega-Card7 {
+        display: unset;
+    }
+
+    body .Illustrator .PostersCard .Imegas3 .Imega-Card6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .BarraPrincipal .BarraItems .material-symbols-outlined {
+        display: unset;
+        color: rebeccapurple;
+    }
+
+    body .BarraPrincipal .BarraItems .Page1 {
+        display: none;
+    }
+
+    body .App .MayaCard {
+        width: 780px;
+        height: 1080px;
+    }
+
+    body .Titulo-Card1 {
+        font-size: 28px;
+    }
+
+    body .App .MayaCard .Imegas1 {
+        align-items: center;
+        grid-template-columns: 220px 220px 220px;
+        grid-template-rows: 420px;
+        column-gap: 25px;
+        padding-bottom: 0px;
+    }
+
+    body .App .MayaCard .Imegas1 .Imega-Card2 {
+        display: unset;
+    }
+
+    body .App .MayaCard .Imegas1 .Imega-Card1 {
+        display: none;
+    }
+    
+    body .Blender .BlenderCard {
+        column-gap: 0px;
+        height: 720px;
+        width: 780px;
+    }
+    
+    body .Blender .BlenderCard .Imegas2 {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 156px 156px 156px;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding-bottom: 0px;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card4 {
+        display: none;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card5 {
+        display: unset;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card3 {
+        display: none;
+    }
+    
+    body .Illustrator .PostersCard {
+        height: 900px;
+        width: 780px;
+    }
+    
+    body .Illustrator .PostersCard .Imegas3 {
+        grid-template-columns: 220px 220px 220px;
+        grid-template-rows: 360px;
+        column-gap: 24px;
+    }
+
+    body .Illustrator .PostersCard .Imegas3 .Imega-Card7 {
+        display: unset;
+    }
+
+    body .Illustrator .PostersCard .Imegas3 .Imega-Card6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .BarraPrincipal .BarraItems .material-symbols-outlined {
+        display: unset;
+        color: rebeccapurple;
+    }
+
+    body .BarraPrincipal .BarraItems .Page1 {
+        display: none;
+    }
+
+    body .App .MayaCard {
+        width: 280px;
+        height: 2380px;
+    }
+
+    body .Titulo-Card1 {
+        font-size: 24px;
+    }
+
+    body .App .MayaCard .Imegas1 {
+        grid-template-columns: 220px;
+        grid-template-rows: 430px 430px 430px 430px 430px;
+        column-gap: 0px;
+        row-gap: 25px;
+        padding-bottom: 0px;
+    }
+
+    body .App .MayaCard .Imegas1 .Imega-Card2 {
+        display: unset;
+    }
+
+    body .App .MayaCard .Imegas1 .Imega-Card1 {
+        display: none;
+    }
+    
+    body .Blender .BlenderCard {
+        column-gap: 0px;
+        height: 1180px;
+        width: 280px;
+    }
+    
+    body .Blender .BlenderCard .Imegas2 {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 156px 156px 156px 156px 156px;
+        row-gap: 20px;
+        column-gap: 0px;
+        padding-bottom: 0px;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card4 {
+        display: none;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card5 {
+        display: unset;
+    }
+
+    body .Blender .BlenderCard .Imegas2 .Imega-Card3 {
+        display: none;
+    }
+    
+    body .Illustrator .PostersCard {
+        height: 2000px;
+        width: 280px;
+    }
+
+    body .Illustrator .PostersCard .Titulo-Card1 {
+        font-size: 21px;
+    }
+    
+    body .Illustrator .PostersCard .Imegas3 {
+        grid-template-columns: 220px;
+        grid-template-rows: 360px 360px 360px 360px 360px;
+        column-gap: 0px;
+        row-gap: 20px;
+    }
+
+    body .Illustrator .PostersCard .Imegas3 .Imega-Card7 {
+        display: unset;
+    }
+
+    body .Illustrator .PostersCard .Imegas3 .Imega-Card6 {
+        display: none;
+    }
+    
+    body .Footer {
+        padding: 12px 12px;
+    }
+
+    body .Footer .Contenido > p {
+        font-size: small;
+        padding: 0px 0px;
+    }
+
+    body .Footer .Contenido .Button > h6 {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 8px 0px;
+    }
+    
+    body .Footer .Contenido .Button > p {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+    
+    body .Footer .Contenido .Button > p:hover {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+}
